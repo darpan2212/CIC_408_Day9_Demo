@@ -6,6 +6,6 @@ a=$((RANDOM%100));
 b=$((RANDOM%100));
 c=$((RANDOM%100));
 
-ans=$(($a+$b*$c));
+ans=$(($a*$b+$c));
 
 echo $ans;
